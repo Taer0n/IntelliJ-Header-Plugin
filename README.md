@@ -6,6 +6,7 @@ Forked and adapted from https://github.com/Eywek/42-header-plugin/
 ## How to install
 
 - Download IntelliJHeader.jar
+- Open IntelliJ IDEA
 - Go to settings -> plugins
 - Click this thing ![roulette](https://i.imgur.com/ecbT8cU.png)
 - Select "Install Plugin from Disk"
