@@ -11,7 +11,11 @@ Forked and adapted from https://github.com/Eywek/42-header-plugin/
 - Click this thing ![roulette](https://i.imgur.com/ecbT8cU.png)
 - Select "Install Plugin from Disk"
 - Select the IntelliJHeader.jar file
-- Save and restart IntelliJ IDEA
+- Save and exit
+- Create an environment variable named USER, its value will be the name displayed on the header
+- Same thing with the MAIL variable
+- Restart IntelliJ IDEA
+
 
 ## How to use
 
