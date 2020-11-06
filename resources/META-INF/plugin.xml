@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>me.loic</id>
+    <name>IntelliJHeader</name>
+    <version>1.0</version>
+    <vendor email="lbertran@student.42lyon.fr" url="">Loïc</vendor>
+
+    <description><![CDATA[
+      Header de lolo tah 42 pour IntelliJ Idea
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Mh oui les changements et tout pleins de changements hmmm
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="me.loic.HeaderGenerator" class="me.loic.HeaderGenerator" text="Generate Header"
+                description="Generates a header">
+            <keyboard-shortcut keymap="$default" first-keystroke="F1"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+        <action id="me.loic.HeaderUpdater" class="me.loic.HeaderUpdater" text="Update Header"
+                description="Updates the header">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl s"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>
